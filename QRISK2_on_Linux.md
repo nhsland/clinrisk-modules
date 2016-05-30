@@ -22,16 +22,7 @@ mkdir executables
 make
 ```
 
-Example
---------
-
 Check Usage notes are returned
-
-```
-cd commandLine
-./Q80_model_4_0_commandLine
-./Q80_model_4_1_commandLine
-```
 
 ```
 cd commandLine
@@ -39,3 +30,13 @@ cd commandLine
 Usage:
   Q80_model_4_0_commandLine age b_AF b_ra b_renal b_treatedhyp b_type1 b_type2 bmi ethrisk fh_cvd rati sbp smoke_cat surv town
 ```
+
+```
+cd commandLine
+./Q80_model_4_1_commandLine|tail --lines=2
+Usage:
+  Q80_model_4_1_commandLine age b_AF b_ra b_renal b_treatedhyp b_type1 b_type2 bmi ethrisk fh_cvd rati sbp smoke_cat surv town
+```
+
+Examples
+----
