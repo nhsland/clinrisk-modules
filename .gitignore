@@ -1,0 +1,17 @@
+# Ignore compiled output
+c/Q80_model_4_0.o
+c/Q80_model_4_1.o
+c/utils.o
+commandLine/Q80_model_4_0_commandLine
+commandLine/Q80_model_4_1_commandLine
+
+# Ignore Makefile backup
+Makefile.bak
+
+# Ignore paths created
+executables/
+lib/
+
+# Ignore symlinks created
+commandLine/female_risk
+commandLine/male_risk
